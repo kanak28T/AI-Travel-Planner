@@ -1,0 +1,84 @@
+{
+  "name": "Trip",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Trip title"
+    },
+    "destination": {
+      "type": "string",
+      "description": "Primary destination city/region in India"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Trip start date"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Trip end date"
+    },
+    "num_travelers": {
+      "type": "number",
+      "default": 1,
+      "description": "Number of travelers"
+    },
+    "budget": {
+      "type": "string",
+      "enum": [
+        "budget",
+        "moderate",
+        "luxury"
+      ],
+      "default": "moderate",
+      "description": "Budget range"
+    },
+    "travel_style": {
+      "type": "string",
+      "enum": [
+        "adventure",
+        "cultural",
+        "relaxation",
+        "spiritual",
+        "wildlife",
+        "food_tour",
+        "heritage"
+      ],
+      "default": "cultural",
+      "description": "Travel style preference"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "planning",
+        "upcoming",
+        "ongoing",
+        "completed"
+      ],
+      "default": "planning",
+      "description": "Trip status"
+    },
+    "itinerary": {
+      "type": "string",
+      "description": "AI-generated itinerary in markdown"
+    },
+    "cover_image": {
+      "type": "string",
+      "description": "Cover image URL"
+    },
+    "interests": {
+      "type": "string",
+      "description": "Specific interests or notes"
+    },
+    "estimated_cost": {
+      "type": "number",
+      "description": "Estimated trip cost in INR"
+    }
+  },
+  "required": [
+    "title",
+    "destination"
+  ]
+}

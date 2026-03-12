@@ -1,0 +1,58 @@
+{
+  "name": "Location",
+  "type": "object",
+  "properties": {
+    "location_id": {
+      "type": "number",
+      "description": "Original ID from dataset"
+    },
+    "name": {
+      "type": "string",
+      "description": "Location name"
+    },
+    "state": {
+      "type": "string",
+      "description": "Indian state"
+    },
+    "latitude": {
+      "type": "number",
+      "description": "Latitude coordinate"
+    },
+    "longitude": {
+      "type": "number",
+      "description": "Longitude coordinate"
+    },
+    "google_maps_url": {
+      "type": "string",
+      "description": "Google Maps URL"
+    },
+    "wikipedia_content": {
+      "type": "string",
+      "description": "Wikipedia summary content"
+    },
+    "wikipedia_url": {
+      "type": "string",
+      "description": "Wikipedia URL"
+    },
+    "unsplash_images": {
+      "type": "string",
+      "description": "JSON array of image URLs"
+    },
+    "airbnb_listings": {
+      "type": "string",
+      "description": "JSON array of airbnb listing objects"
+    },
+    "airbnb_url": {
+      "type": "string",
+      "description": "Airbnb search URL"
+    },
+    "scraped_at": {
+      "type": "string",
+      "description": "When data was scraped"
+    }
+  },
+  "required": [
+    "name",
+    "state"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "City",
+  "type": "object",
+  "properties": {
+    "city": {
+      "type": "string",
+      "description": "City name"
+    },
+    "ratings": {
+      "type": "string",
+      "description": "City rating"
+    },
+    "ideal_duration": {
+      "type": "string",
+      "description": "Ideal visit duration in days"
+    },
+    "best_time_to_visit": {
+      "type": "string",
+      "description": "Best months to visit"
+    },
+    "city_desc": {
+      "type": "string",
+      "description": "City description"
+    }
+  },
+  "required": [
+    "city"
+  ]
+}

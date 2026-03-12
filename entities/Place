@@ -1,0 +1,30 @@
+{
+  "name": "Place",
+  "type": "object",
+  "properties": {
+    "city": {
+      "type": "string",
+      "description": "City this place belongs to"
+    },
+    "place": {
+      "type": "string",
+      "description": "Place name"
+    },
+    "ratings": {
+      "type": "string",
+      "description": "Place rating"
+    },
+    "distance": {
+      "type": "string",
+      "description": "Distance from city center"
+    },
+    "place_desc": {
+      "type": "string",
+      "description": "Place description"
+    }
+  },
+  "required": [
+    "city",
+    "place"
+  ]
+}

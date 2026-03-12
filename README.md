@@ -17,6 +17,11 @@ This platform acts as a **smart travel assistant** that allows users to:
 
 The app is structured around **user interactions, AI itinerary generation, and backend data management**, creating a complete travel planning ecosystem.
 
+## 📊 Project Flowchart
+
+Shows how users interact with the app, how the AI engine generates itineraries, and how data flows through the backend.
+
+<img width="1898" height="2182" alt="mermaid-diagram (2)" src="https://github.com/user-attachments/assets/d8c059d7-42e2-42ed-9514-d2213485172e" />
 
 
 ## 🧩 Core Architecture
@@ -120,13 +125,3 @@ Located in `src/lib/ai-planner.js`, this module **generates personalized trip pl
 5. Trip saved → visible in MyTrips
 6. User can browse cities, locations, and explore personalized recommendations
 
-
-## 📌 Next Areas to Explore
-
-* Trip submission flow in PlanTrip.jsx
-* Data caching via `query-client.js`
-* App configuration in `app-params.js`
-* AI/ABDM integration improvements
-
-
-Do you want me to do that next?

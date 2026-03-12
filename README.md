@@ -5,7 +5,7 @@ An **AI-powered travel planning web application** built with **React + Vite** th
 The system integrates **AI-based itinerary generation**, **authentication flow**, and **modular page routing** to create a seamless trip-planning experience.
 
 
-## ✅ Project Overview
+## 📝 Project Overview
 
 This platform acts as a **smart travel assistant** that allows users to:
 

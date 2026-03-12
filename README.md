@@ -15,29 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-flowchart TD
-    A[User] --> B[Search Destinations]
-    A --> C[Plan Itinerary]
-    A --> D[Book Travel & Hotels]
-    A --> E[View Recommendations]
+<img width="3157" height="1184" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/119c68d0-7fd0-4b80-a440-c9748d0c0e1a" />
 
-    B --> B1[Cities / Tourist Spots / Cultural Info]
-    C --> C1[Day-wise Trip Planner]
-    C --> C2[Route Suggestions]
 
-    D --> D1[Flights / Hotels / Packages]
-    D --> D2[Booking Confirmation]
 
-    E --> E1[Personalized AI Recommendations]
-    E --> E2[Travel Tips & Alerts]
-
-    B1 --> F[Destination Data]
-    C1 --> F
-    C2 --> F
-    D1 --> F
-    D2 --> F
-    E1 --> F
-    E2 --> F
-
-    F[Backend / Database] --> G[AI & ABDM Module]
-    G --> E1
